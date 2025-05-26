@@ -65,13 +65,11 @@
 // export default JordanFlag;
 
 import React from 'react';
-import jordanFlag from '../assets/JORDAN.jpg';
 
 const JordanFlag = () => {
   return (
     <div style={styles.container}>
-      <img src={jordanFlag} alt="Jordan Left" style={styles.leftImage} />
-      {/* <img src={`${process.env.PUBLIC_URL}/JORDAN.jpg`} alt="Jordan Left" style={styles.leftImage} /> */}
+      <img src="/JORDAN.jpg" alt="Jordan Left" style={styles.leftImage} />
       {/* <img src="/jo.jpg" alt="Jordan Right" style={styles.rightImage} /> */}
     </div>
   );

@@ -40,7 +40,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <Router basename="/jordan-independence">
+    <Router>
       <Navbar /> 
       <Routes>
         <Route path="/" element={<Home />} />

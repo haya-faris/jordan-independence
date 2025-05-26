@@ -1,5 +1,4 @@
 import React from 'react';
-import joImage from '../assets/jo.jpg';
 
 const History = () => {
   return (
@@ -29,7 +28,7 @@ const History = () => {
       </div>
 
       <img
-        src={joImage}
+        src="/jo.jpg"
         alt="علم الأردن"
         style={styles.image}
       />
