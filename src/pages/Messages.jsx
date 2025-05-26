@@ -7,7 +7,8 @@ const Messages = () => {
 
   // Fetch messages from API
   const fetchMessages = async () => {
-    const res = await fetch('http://localhost:5000/api/messages');
+    // const res = await fetch('http://localhost:5000/api/messages');
+    const res = await fetch('https://jordan-independence-backend.onrender.com/api/messages');
     const data = await res.json();
     setMessages(data.reverse()); // Display the most recent first
   };
@@ -27,8 +28,9 @@ const Messages = () => {
     if (!form.name.trim() || !form.text.trim()) return alert('الرجاء تعبئة الاسم والرسالة');
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:5000/api/messages', {
-        method: 'POST',
+      // const res = await fetch('http://localhost:5000/api/messages', {
+      const res = await fetch('https://jordan-independence-backend.onrender.com/api/messages', {
+      method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       });
