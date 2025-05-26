@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.js": "/jordan-independence/static/js/main.3bfafd74.js",
+    "main.js": "/jordan-independence/static/js/main.d93b8869.js",
+    "static/media/1.png": "/jordan-independence/static/media/1.ef4b342b5ce6095baf2b.png",
+    "static/media/2.png": "/jordan-independence/static/media/2.94b3a31e435197ee86b6.png",
+    "static/media/3.png": "/jordan-independence/static/media/3.5550ceddcd8fea571cdb.png",
+    "static/media/5.png": "/jordan-independence/static/media/5.f58294cf69674fdc790d.png",
+    "static/media/4.png": "/jordan-independence/static/media/4.6a84b2dcb6826a2ca13a.png",
+    "static/media/jo.jpg": "/jordan-independence/static/media/jo.265c7bf509588168a746.jpg",
+    "static/media/JORDAN.jpg": "/jordan-independence/static/media/JORDAN.adf97bcc3cbedc7154a0.jpg",
     "index.html": "/jordan-independence/index.html",
-    "main.3bfafd74.js.map": "/jordan-independence/static/js/main.3bfafd74.js.map"
+    "main.d93b8869.js.map": "/jordan-independence/static/js/main.d93b8869.js.map"
   },
   "entrypoints": [
-    "static/js/main.3bfafd74.js"
+    "static/js/main.d93b8869.js"
   ]
 }
